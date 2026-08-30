@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Cloning Git') {
             steps {
-                git 'https://github.com/SaaraBite/lab5-cicd-demo.git'
+                git branch: 'main', url: 'https://github.com/SaaraBite/lab5-cicd-demo.git'
             }
         }
 
