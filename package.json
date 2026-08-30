@@ -1,0 +1,9 @@
+{
+  "name": "lab5-cicd-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for CI/CD pipeline lab",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
